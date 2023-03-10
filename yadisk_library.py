@@ -1,5 +1,4 @@
 import yadisk
-import requests
 from pprint import pprint
 TOKEN = input(str("Введите токен: "))
 y = yadisk.YaDisk(token=TOKEN)
